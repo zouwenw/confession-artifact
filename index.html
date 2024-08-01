@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="modal.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--信封部分-->
+    <div class="envelope" id="myDiv">
+        <div class="top"></div>
+        <div class="heart"></div>
+        <div class="card">
+            <p>去见你的路上风都是甜的</p>
+            <p>去见你的路上风都是甜的</p>
+            <p>去见你的路上风都是甜的</p>
+            <p>去见你的路上风都是甜的</p>
+            <p>去见你的路上风都是甜的</p>
+        </div>
+    </div>
+    <!--烟花部分-->
+    <canvas id='cas' style="background-color:rgba(0,5,24,1)"></canvas>
+    <!--音乐部分-->
+    <audio autoplay loop id="music">
+        <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+    <iframe id="iframMusic" allow="autoplay" style="display:none" src="blank.mp3"></iframe>
+    <script src="fire.js"></script>
+</body>
+
+</html>
